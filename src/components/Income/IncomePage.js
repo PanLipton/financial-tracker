@@ -82,13 +82,6 @@ const DeleteIcon = styled.span`
   cursor: pointer;
 `;
 
-// Dummy data for the income list
-const incomeData = [
-  { id: 1, source: 'Salary', amount: 5000, date: '2023-04-01' },
-  { id: 2, source: 'Freelance', amount: 1500, date: '2023-04-15' },
-  { id: 3, source: 'Dividends', amount: 300, date: '2023-04-30' },
-];
-
 const IncomePage = () => {
   const [showReceiptWindow, setShowReceiptWindow] = useState(false);
   const [incomeData, setIncomeData] = useState([
