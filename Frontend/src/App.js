@@ -6,6 +6,7 @@ import CategoryDetail from './pages/CategoryDetail';
 import Layout from './components/Layout';
 import IncomePage from './components/Income/IncomePage'
 import ExpensesPage from './components/Expenses/ExpensesPage';
+import SettingsPage from './components/Settings/SettingsPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/category/:id" element={<CategoryDetail />} />
           <Route path="/income" element={<IncomePage />} />
           <Route path="/expenses" element={<ExpensesPage />} />
+          <Route path="/settings" element={<SettingsPage />} />
         </Routes>
       </Layout>
     </Router>
